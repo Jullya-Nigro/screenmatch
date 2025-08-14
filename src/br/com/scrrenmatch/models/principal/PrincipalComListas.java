@@ -30,7 +30,7 @@ public class PrincipalComListas {
 
         List<String> buscaPorArtista = new LinkedList<>();
         buscaPorArtista.add("Adam Sandler");
-        buscaPorArtista.add("Paulo");
+        buscaPorArtista.add("Jullya");
         buscaPorArtista.add("Jacqueline");
         System.out.println(buscaPorArtista);
 
@@ -44,6 +44,7 @@ public class PrincipalComListas {
         lista.sort(Comparator.comparing(Titulo::getAnoDeLancamento));
         System.out.println("Ordenando por ano: ");
         System.out.println(lista);
+
 
     }
 
